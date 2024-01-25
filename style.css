@@ -19,7 +19,7 @@ body {
 
 .heading-container {
   color: white;
-  padding-top: 5em;
+  padding: 5em 2em 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
