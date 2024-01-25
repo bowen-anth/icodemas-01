@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.main {
+  background: url("https://icodethis.com/images/iCodeMas/snow_bg.png");
+  min-height: 100vh;
+  min-height: 100lvh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading-container {
+  color: white;
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1em;
+}
+
+.heading-container h2 {
+  font-size: 1.2rem;
+}
+
+.time-container {
+  display: flex;
+  flex-direction: row;
+  margin: 4em auto;
+  justify-content: center;
+  gap: 1em;
+}
+
+.days-container,
+.hours-container,
+.minutes-container,
+.seconds-container {
+  height: 8rem;
+  width: 5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 1em;
+  border-radius: 15px;
+}
+
+.days-p,
+.hours-p,
+.minutes-p,
+.seconds-p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  padding: 1em;
+  width: 100%;
+}
+
+.image.santa {
+  margin-left: auto;
+}
